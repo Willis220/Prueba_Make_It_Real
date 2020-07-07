@@ -1,0 +1,30 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    height: 100px;
+}
+
+.foto_perfil {
+    width:250px;
+    height:250px;
+    border-radius:160px;
+    border:5px solid #ffff;
+}
+
+
+.content {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform:traslate(-50%,-50%);
+}
+
+h1,h2 {
+    text-align: center;
+    color: #ffff;
+    font-family: 'Coda Caption', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+}
+
